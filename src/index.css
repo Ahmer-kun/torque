@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Cinzel", Georgia, serif;
+  --font-cinzel: "Cinzel", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-romantic-black: #0b0b0f;
+  --color-romantic-card: #121218;
+  --color-romantic-darkred: #4a0000;
+  --color-romantic-red: #8b0000;
+  --color-romantic-rose: #a31621;
+  --color-romantic-blush: #e27d80;
+  --color-romantic-paleblush: #fcd5d9;
+  --color-romantic-gold: #cfa14a;
+  --color-romantic-gold-hover: #e5b85d;
+}
+
+/* Custom Scrollbar and high-precision visual utilities */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0b0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a1114;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8b0000;
+}
+
+/* Smooth Scrolling Support */
+html {
+  scroll-behavior: smooth;
+  background-color: #0b0b0f;
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: #0b0b0f;
+}
+
+.ambient-glow {
+  filter: blur(140px);
+  pointer-events: none;
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.05);
+    opacity: 0.4;
+  }
+}
+
+.floating-bg-glow {
+  animation: float-slow 12s ease-in-out infinite;
+}
+

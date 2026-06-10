@@ -1,0 +1,7 @@
+=== HOW TO UPLOAD YOUR BACKGROUND MP3 MUSIC ===
+
+1. Name your MP3 file precisely "music.mp3" (all lowercase).
+2. Upload/drag-and-drop that "music.mp3" file directly into this "/public" directory.
+3. The romantic confession app will automatically find it, play it instead of the procedural synthesizer, and show a beautiful "Custom Soundtrack" pill representation!
+
+If no "music.mp3" is found, the system automatically falls back to an elegant live atmospheric synthesis (chord generator) so the music never crashes or fails! Enjoy!

@@ -1,0 +1,6 @@
+{
+  "name": "Romantic Confession",
+  "description": "An elegant, dark-themed, single-page romantic confession website that unfolds like a slow, intimate story.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
